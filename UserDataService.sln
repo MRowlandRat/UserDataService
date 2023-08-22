@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDataService", "UserDataService.csproj", "{BD39F965-AED6-4E54-90CF-7A465219424B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD39F965-AED6-4E54-90CF-7A465219424B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD39F965-AED6-4E54-90CF-7A465219424B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD39F965-AED6-4E54-90CF-7A465219424B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD39F965-AED6-4E54-90CF-7A465219424B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C678929-61C1-407E-909F-11C207BE4155}
+	EndGlobalSection
+EndGlobal
