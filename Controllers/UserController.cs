@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using UserDataService.Data;
 using UserDataService.Models;
 
@@ -18,6 +19,11 @@ namespace UserDataService.Controllers
         [HttpGet]
         public async Task<List<UserData>> Get() =>await _DataService.GetAsync();
 
+        [HttpGet("/test")]
+        public async Task<IActionResult> Test()
+        {
+            return Ok("User Data service is up and running");
+        }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<UserData>> Get(Guid id)
