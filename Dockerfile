@@ -1,6 +1,6 @@
 ﻿FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build-env
 WORKDIR /app3
-EXPOSE 8080
+EXPOSE 8081
 COPY ./ ./
 RUN dotnet restore
 
